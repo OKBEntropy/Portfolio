@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Portfolio BTS SIO - Cybersécurité - [Ton Nom]</title>
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+  <!-- Font Awesome for icons -->
+  <script src="https://kit.fontawesome.com/yourkitid.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  <!-- Navigation -->
+  <nav class="navbar" aria-label="Navigation principale">
+    <div class="container nav-container">
+      <a href="#accueil" class="logo" aria-label="Accueil">[TonNom]</a>
+      <button class="nav-toggle" aria-controls="nav-menu" aria-expanded="false" aria-label="Ouvrir la navigation">
+        <span class="hamburger"></span>
+      </button>
+      <ul id="nav-menu" class="nav-menu">
+        <li><a href="#accueil" class="nav-link active">Accueil</a></li>
+        <li><a href="#competences" class="nav-link">Compétences</a></li>
+        <li><a href="#projets" class="nav-link">Projets</a></li>
+        <li><a href="#veille" class="nav-link">Veille</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Accueil -->
+  <section id="accueil" class="section hero" tabindex="-1" aria-label="Présentation">
+    <div class="container hero-content">
+      <h1>Bonjour, je suis <span class="highlight">[Ton Nom]</span></h1>
+      <p class="subtitle">Étudiant en <strong>BTS Services Informatiques aux Organisations</strong>, spécialisé en <strong>cybersécurité</strong>.</p>
+      <p>Passionné par la protection des données, la sécurité des réseaux et le développement de solutions sécurisées.</p>
+      <a href="#projets" class="btn btn-primary" aria-label="Voir mes projets">Voir mes projets</a>
+    </div>
+  </section>
+
+  <!-- Compétences -->
+  <section id="competences" class="section" tabindex="-1" aria-labelledby="competences-title">
+    <div class="container">
+      <h2 id="competences-title" class="section-title">Mes compétences</h2>
+      <p class="section-description">Voici un aperçu de mes domaines d’expertise et technologies maîtrisées :</p>
+
+      <div class="skills-grid">
+        <article class="skill-card" tabindex="0">
+          <i class="fas fa-network-wired skill-icon" aria-hidden="true"></i>
+          <h3>Administration réseau</h3>
+          <p>Configuration, gestion et sécurisation d’infrastructures réseaux (TCP/IP, VPN, VLAN, pare-feu).</p>
+        </article>
+        <article class="skill-card" tabindex="0">
+          <i class="fas fa-shield-alt skill-icon" aria-hidden="true"></i>
+          <h3>Cybersécurité</h3>
+          <p>Analyse de vulnérabilités, tests d’intrusion, détection d’intrusions et audits de sécurité.</p>
+        </article>
+        <article class="skill-card" tabindex="0">
+          <i class="fas fa-code skill-icon" aria-hidden="true"></i>
+          <h3>Développement Web</h3>
+          <p>Création d’applications sécurisées avec HTML5, CSS3, JavaScript (ES6+), Node.js et frameworks modernes.</p>
+        </article>
+        <article class="skill-card" tabindex="0">
+          <i class="fas fa-database skill-icon" aria-hidden="true"></i>
+          <h3>Bases de données</h3>
+          <p>Conception, gestion et sécurisation de bases de données SQL et NoSQL.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projets -->
+  <section id="projets" class="section" tabindex="-1" aria-labelledby="projets-title">
+    <div class="container">
+      <h2 id="projets-title" class="section-title">Projets récents</h2>
+      <p class="section-description">Découvrez mes réalisations les plus significatives en cybersécurité et développement :</p>
+
+      <div class="projects-grid">
+        <article class="project-card" tabindex="0">
+          <img src="images/projet-vuln.png" alt="Capture d’écran du projet d’analyse de vulnérabilités" />
+          <div class="project-info">
+            <h3>Analyse de vulnérabilités réseau</h3>
+            <p>Audit complet d’un réseau d’entreprise, identification des failles et recommandations.</p>
+            <a href="https://github.com/toncompte/projet-vulnerabilites" target="_blank" rel="noopener" aria-label="Voir le projet sur GitHub">Voir sur GitHub <i class="fas fa-external-link-alt"></i></a>
+          </div>
+        </article>
+        <article class="project-card" tabindex="0">
+          <img src="images/projet-site-secure.png" alt="Capture d’écran du site web sécurisé" />
+          <div class="project-info">
+            <h3>Site web sécurisé</h3>
+            <p>Développement d’un site sécurisé avec authentification, gestion des sessions et protection contre XSS/CSRF.</p>
+            <a href="https://tonsiteweb.com" target="_blank" rel="noopener" aria-label="Voir le site web">Voir le site <i class="fas fa-external-link-alt"></i></a>
+          </div>
+        </article>
+        <article class="project-card" tabindex="0">
+          <img src="images/projet-automation.png" alt="Capture d’écran du projet d’automatisation des tâches" />
+          <div class="project-info">
+            <h3>Automatisation de tâches</h3>
+            <p>Scripting PowerShell et Bash pour automatiser les sauvegardes et la surveillance de sécurité.</p>
+            <a href="https://github.com/toncompte/projet-automation" target="_blank" rel="noopener" aria-label="Voir le projet sur GitHub">Voir sur GitHub <i class="fas fa-external-link-alt"></i></a>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- Veille -->
+  <section id="veille" class="section" tabindex="-1" aria-labelledby="veille-title">
+    <div class="container">
+      <h2 id="veille-title" class="section-title">Veille technologique</h2>
+      <p class="section-description">Je reste à jour avec les dernières tendances et menaces en cybersécurité :</p>
+      <ul class="veille-list">
+        <li><strong>2025 :</strong> Analyse des nouvelles vulnérabilités Zero-Day sur les systèmes Windows.</li>
+        <li><strong>2024 :</strong> Implémentation de la norme Zero Trust dans une architecture réseau.</li>
+        <li><strong>2024 :</strong> Étude sur les attaques par ransomware et stratégies de défense.</li>
+        <li><strong>2023 :</strong> Participation à des CTF (Capture The Flag) pour tester mes compétences pratiques.</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="section" tabindex="-1" aria-labelledby="contact-title">
+    <div class="container">
+      <h2 id="contact-title" class="section-title">Contactez-moi</h2>
+      <p class="section-description">Vous pouvez me joindre via le formulaire ci-dessous ou par mes réseaux sociaux.</p>
+
+      <form id="contact-form" aria-label="Formulaire de contact">
+        <div class="form-group">
+          <label for="name">Nom complet</label>
+          <input type="text" id="name" name="name" placeholder="Votre nom complet" required aria-required="true" />
+        </div>
+        <div class="form-group">
+          <label for="email">Adresse email</label>
+          <input type="email" id="email" name="email" placeholder="exemple@domaine.com" required aria-required="true" />
+        </div>
+        <div class="form-group">
+          <label for="message">Message</label>
+          <textarea id="message" name="message" rows="5" placeholder="Votre message ici..." required aria-required="true"></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary">Envoyer</button>
+        <p id="form-response" role="alert" aria-live="polite" class="form-response"></p>
+      </form>
+
+      <div class="social-links" aria-label="Liens réseaux sociaux">
+        <a href="https://linkedin.com/in/tonprofil" target="_blank" rel="noopener" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+        <a href="https://github.com/toncompte" target="_blank" rel="noopener" aria-label="GitHub"><i class="fab fa-github"></i></a>
+        <a href="mailto:ton.email@example.com" aria-label="Email"><i class="fas fa-envelope"></i></a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <p>&copy; 2025 [Ton Nom]. Tous droits réservés.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
